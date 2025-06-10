@@ -5,7 +5,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
 
-folder = "/home/aizeria/Documents/work/Customer-Reviews-of-Bank-Agencies-in-Morocco"
+folder = "/home/hossam/Documents/work/Customer-Reviews-of-Bank-Agencies-in-Morocco"
 
 def extract_data_task():
     script_path = f"{folder}/data extraction/ingestion_scripts/extract_json_data.py"
